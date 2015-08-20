@@ -10,8 +10,8 @@ public class SumMultiples3and5ServiceTest {
   public void test() {
     // Initial
     SumMultiples3and5Service sumService = new SumMultiples3and5Service();
-    final int upperLimit = 10;
-    final int sum = 23;
+    final int upperLimit = 1000;
+    final int sum = 233168;
 
     // Run
     final int result = sumService.sumMultiples3and5(upperLimit);
