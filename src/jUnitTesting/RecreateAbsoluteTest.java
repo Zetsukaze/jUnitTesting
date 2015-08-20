@@ -75,7 +75,6 @@ public class RecreateAbsoluteTest {
   public void testMinInt() {
     // Initial
     final int start = Integer.MIN_VALUE;
-    final int end = Integer.MIN_VALUE;
 
     // Run
     final int result = RecreateAbsolute.abs(start);
